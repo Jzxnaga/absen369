@@ -4,7 +4,7 @@ const masterstaff = require('./masterstaff.js')
 
 
 routes.get('/',(req,res)=>{
-    res.send('homepage')
+    res.send('homepage absen')
 })
 
 routes.use('/user',masterstaff)
