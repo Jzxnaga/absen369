@@ -19,6 +19,10 @@ app.use('/',routes)
 //     console.log(`running on port ${port}`)
 // })
 
-app.listen(port, '192.168.1.8')
+//app.listen(port, '192.168.1.8')
+
+app.listen (port,(err,res)=>{
+    console.log(`running on port ${port}`)
+})
 
 module.exports=app
